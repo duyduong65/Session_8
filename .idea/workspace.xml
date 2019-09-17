@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L_App_Simulation_Adam_Eva/L_App_Simulation_Adam_Eva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L_App_Simulation_Adam_Eva/Main_L_App_Simulation_Adam_Eva.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L_App_Simulation_Adam_Eva/Main_L_App_Simulation_Adam_Eva.js" beforeDir="false" afterPath="$PROJECT_DIR$/L_App_Simulation_Adam_Eva/Main_L_App_Simulation_Adam_Eva.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568708125368</updated>
       <workItem from="1568708129133" duration="12280000" />
+      <workItem from="1568725107115" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="final example">
       <created>1568709870736</created>
@@ -106,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

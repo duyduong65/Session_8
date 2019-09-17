@@ -20,25 +20,25 @@ let Human = function (name, gender, weight, isString) {
     this.isString = isString;
 
     this.getName = function () {
-        return this.name;
+        return this.name ;
     };
     this.setName = function (value) {
         this.name = value;
     };
     this.getGender = function () {
-        return this.gender = gender;
+        return this.gender;
     };
     this.setGender = function (value) {
         this.gender = value;
     };
     this.getWeight = function () {
-        return this.weight = weight;
+        return this.weight;
     };
     this.setWeight = function (value) {
         this.weight = value;
     };
     this.getIsString = function () {
-        return this.isString = isString;
+        return this.isString;
     };
     this.setIsString = function (value) {
         this.isString = value;
