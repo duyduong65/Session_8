@@ -20,7 +20,7 @@ let Human = function (name, gender, weight, isString) {
     this.isString = isString;
 
     this.getName = function () {
-        return this.name ;
+        return this.name;
     };
     this.setName = function (value) {
         this.name = value;
@@ -54,17 +54,31 @@ let eva = new Human("Eva", "female", 50, "Tôi là Eva");
 let apple = new Apple(10);
 console.log(adam.getIsString());
 console.log(eva.getIsString());
+let showApple = document.getElementById('showApple');
+let showWeightAdam = document.getElementById('showWeightAdam');
+let showWeightEva = document.getElementById('showWeightEva');
 
+display();
 
+function display() {
+    showApple.innerHTML = `Số táo còn lại là: ${apple.getWeight()}`;
+    showWeightAdam.innerHTML = `Weight Adam: ${adam.getWeight()}`;
+    showWeightEva.innerHTML = `Weight Eva: ${eva.getWeight()}`;
+
+}
 
 function EatAnApple(name) {
-    name.IncreaseWeight();
-    apple.DecreaseWeight();
-    if (apple.getWeight() <= 0) {
-        alert("Hết cụ táo rồi");
+    if (apple.getWeight() > 0) {
+        name.IncreaseWeight();
+        apple.DecreaseWeight();
+    } else if (apple.getWeight() == 0) {
+        alert("Bạn đã ăn quả táo cuối cùng");
+        apple.setWeight(0);
+        name.setWeight(name.getWeight());
+    } else if (apple.getWeight() < 0) {
+        alert("đã hết táo để ăn");
     }
     console.log(name.getWeight());
     console.log(apple.getWeight());
-
-
+    display();
 }
