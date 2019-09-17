@@ -34,10 +34,9 @@ function Husky(image, top, left, size) {
     };
 }
 
-// let randomWidth = Math.floor(Math.random() * window.innerWidth);
-// let randomHeight = Math.floor(Math.random() * window.innerHeight);
 let husky = new Husky('husky.jpg', 0, 0, 150);
-husky.setSpeed(100);
+husky.setSpeed(10);
+
 let maxWith = window.innerWidth - husky.size;
 let maxHeight = window.innerHeight - husky.size;
 
