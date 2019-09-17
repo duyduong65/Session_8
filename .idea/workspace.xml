@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="" />
+    <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/L_EZ_game_MoveObject/L_EZ_game_MoveObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L_EZ_game_MoveObject/Main_L_EZ_game_MoveObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L_EZ_game_MoveObject/husky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +38,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Full PHP\Session_8\L_EZ_game_MoveObject" />
+      <recent name="D:\Full PHP\Session_8\" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -55,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568708125368</updated>
-      <workItem from="1568708129133" duration="1806000" />
+      <workItem from="1568708129133" duration="7110000" />
     </task>
     <task id="LOCAL-00001" summary="final example">
       <created>1568709870736</created>
@@ -64,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568709870736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final example">
+      <created>1568709991416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568709991416</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
