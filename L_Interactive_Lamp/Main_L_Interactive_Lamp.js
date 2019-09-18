@@ -1,4 +1,4 @@
-let ElectricLamp = function (status,x,y) {
+let ElectricLamp = function (status, x, y) {
     this.status = status;
 
     this.getStatus = function () {
@@ -8,11 +8,11 @@ let ElectricLamp = function (status,x,y) {
         this.status = value;
     };
     this.turnOn = function () {
-        creatLamp(x,y);
+        creatLamp(x, y);
         this.setStatus(true);
     };
     this.turnOff = function () {
-        creatLamp(x,y);
+        creatLamp(x, y);
         this.setStatus(false)
     }
 };
@@ -43,9 +43,9 @@ let SwitchButton = function (status) {
 };
 
 let switchButton = new SwitchButton(false);
-let lamp_1 = new ElectricLamp(false,800,300);
-let lamp_2 =new ElectricLamp(false,500,250);
-creatLamp(500,250);
+let lamp_1 = new ElectricLamp(false, 800, 300);
+let lamp_2 = new ElectricLamp(false, 500, 250);
+creatLamp(500, 250);
 switchButton.getConnect(lamp_2);
 
 function switchOnOff(lamp) {
@@ -56,22 +56,30 @@ function switchOnOff(lamp) {
     }
 };
 
-function creatLamp(x,y) {
+function creatLamp(x, y) {
     if (switchButton.getStatus()) {
-        let c = document.getElementById('myCanvas');
-        let ctx = c.getContext("2d");
-        ctx.beginPath();
-        ctx.arc(x, y, 60, 0, 2 * Math.PI);
-        ctx.fillStyle = "yellow";
-        ctx.fill();
-    } else if (!switchButton.getStatus()){
-        let c = document.getElementById('myCanvas');
-        let ctx = c.getContext("2d");
-        ctx.beginPath();
-        ctx.arc(x, y, 60, 0, 2 * Math.PI);
-        ctx.clearRect(0, 0, 1199, 599);
-        ctx.strokeStyle = "black";
-        ctx.stroke();
+        drawFillArc();
+    } else if (!switchButton.getStatus()) {
+        drawStrokeArc();
     }
+}
+
+function drawFillArc() {
+    let c = document.getElementById('myCanvas');
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(x, y, 60, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+}
+
+function drawStrokeArc() {
+    let c = document.getElementById('myCanvas');
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(x, y, 60, 0, 2 * Math.PI);
+    ctx.clearRect(0, 0, 1199, 599);
+    ctx.strokeStyle = "black";
+    ctx.stroke();
 }
 

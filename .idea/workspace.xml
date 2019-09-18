@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L_Interactive_Lamp/L_Interactive_Lamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/L_Interactive_Lamp/L_Interactive_Lamp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L_Interactive_Lamp/Main_L_Interactive_Lamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/L_Interactive_Lamp/Main_L_Interactive_Lamp.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <updated>1568708125368</updated>
       <workItem from="1568708129133" duration="12280000" />
       <workItem from="1568725107115" duration="1847000" />
-      <workItem from="1568770223448" duration="17220000" />
+      <workItem from="1568770223448" duration="17913000" />
     </task>
     <task id="LOCAL-00001" summary="final example">
       <created>1568709870736</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568786333094</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="demo_L_Interactive_part3">
+      <created>1568788687321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568788687321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,7 @@
     <MESSAGE value="hoàn chỉnh bài adam và eva ăn táo" />
     <MESSAGE value="demo_L_Interactive" />
     <MESSAGE value="demo_L_Interactive_part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo_L_Interactive_part2" />
+    <MESSAGE value="demo_L_Interactive_part3" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo_L_Interactive_part3" />
   </component>
 </project>
