@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+    <legend>RemoteTV</legend>
+    <table>
+        <tr>
+            <td>
+                <button type="button" onclick="remoteToShiBa.setTurnOn()">ON/OFF</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="remoteToShiBa.setConvertChannel(prompt('Nhập vào kênh muốn chuyển'))">set
+                    channel
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="remoteToShiBa.setVolumeUp()">Volume +</button>
+            </td>
+            <td>
+                <button type="button" onclick="remoteToShiBa.setVolumeDown()">Volume -</button>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</body>
+<script src="remote_TV.js"></script>
+</html>
