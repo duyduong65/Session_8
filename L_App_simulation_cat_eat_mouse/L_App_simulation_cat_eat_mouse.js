@@ -97,6 +97,5 @@ function tomAndJerry() {
     tom.CatchAndEat(jerry_2);
     console.log(tom.getWeight());
     tom.CatchAndEat(jerry_3);
-    console.log(tom.getWeight());
-}
+    console.log(tom.getWeight());}
 tomAndJerry();

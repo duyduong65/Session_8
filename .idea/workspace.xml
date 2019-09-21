@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="" />
+    <list default="true" id="95ade88b-70d1-4a12-8d55-5dbad12d49d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/L_App_simulation_cat_eat_mouse/L_App_simulation_cat_eat_mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/L_App_simulation_cat_eat_mouse/L_App_simulation_cat_eat_mouse.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +131,7 @@
     <MESSAGE value="final example" />
     <MESSAGE value="final example adam eat an apple" />
     <MESSAGE value="hoàn chỉnh bài adam và eva ăn táo" />
-    <option name="LAST_COMMIT_MESSAGE" value="hoàn chỉnh bài adam và eva ăn táo" />
+    <MESSAGE value="create simulation tom and jerry" />
+    <option name="LAST_COMMIT_MESSAGE" value="create simulation tom and jerry" />
   </component>
 </project>
